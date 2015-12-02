@@ -1,7 +1,7 @@
-<skin>
+﻿<skin>
   <!--
 Skin Grey-SkinHD By Khaled (Palikao)
-Modedified By RAED to Dreambox OE2.0 23-07-2015
+Modedified By EuroSat for EuroSat-Image 22-11-2015
 -->
   <output id="0">
     <resolution xres="1280" yres="720" bpp="32" />
@@ -421,12 +421,12 @@ Modedified By RAED to Dreambox OE2.0 23-07-2015
     <widget position="42,74" render="Listbox" scrollbarMode="showOnDemand" selectionPixmap="Grey-SkinHD/menu/sel30.png" size="245,293" source="menu" itemHeight="25">
       <convert type="StringList" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="Grey-SkinHD/menu/ico_hdmu.c.png" position="393,94" size="222,222" alphatest="blend" transparent="1">
-      <convert type="MenuEntryCompare">HDMU_mainmenu</convert>
+    <widget source="menu" render="Pixmap" pixmap="Grey-SkinHD/menu/ico_eurosat.c.png" position="393,94" size="222,222" alphatest="blend" transparent="1">
+      <convert type="MenuEntryCompare">EuroSat_mainmenu</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="Grey-SkinHD/menu/ico_hdmu.m.png" position="393,94" size="222,222" alphatest="blend" transparent="1">
-      <convert type="MenuEntryCompare">dhdmumc_mainmenu</convert>
+    <widget source="menu" render="Pixmap" pixmap="Grey-SkinHD/menu/ico_eurosat.m.png" position="393,94" size="222,222" alphatest="blend" transparent="1">
+      <convert type="MenuEntryCompare">deurosatmc_mainmenu</convert>
       <convert type="ConditionalShowHide" />
     </widget>
     <widget source="menu" render="Pixmap" pixmap="Grey-SkinHD/menu/plugins.png" position="393,94" size="222,222" alphatest="blend" transparent="1">
@@ -511,7 +511,7 @@ Modedified By RAED to Dreambox OE2.0 23-07-2015
     <ePixmap alphatest="on" pixmap="Grey-SkinHD/yellow.png" position="415,650" size="21,21" transparent="1" zPosition="0" />
     <ePixmap alphatest="on" pixmap="Grey-SkinHD/blue.png" position="605,650" size="21,21" transparent="1" zPosition="0" />
     <widget backgroundColor="black" font="Regular; 28" halign="center" position="37,37" render="Label" size="743,62" source="Title" transparent="1" valign="top" zPosition="1" />
-    <widget foregroundColorServiceNotAvail="#555555" picServiceEventProgressbar="Grey-SkinHD/minibar.png" colorEventProgressbar="orange" serviceNumberFont="Regular;19" serviceItemHeight="30" serviceNameFont="Regular;22" serviceInfoFont="Regular;20" foregroundColorSelected="cyan1" colorServiceDescription="green" colorServiceDescriptionSelected="fresh" name="list" position="75,121" scrollbarMode="showNever" selectionPixmap="Grey-SkinHD/menu/sel31.png" size="715,452" transparent="1" zPosition="1" />
+    <widget foregroundColorServiceNotAvail="#555555" picServiceEventProgressbar="Grey-SkinHD/minibar.png" colorEventProgressbar="orange" serviceNumberFont="Regular;19" serviceItemHeight="30" serviceNameFont="Regular;22" serviceInfoFont="Regular;20" foregroundColorSelected="cyan1" colorServiceDescription="orange" colorServiceDescriptionSelected="fresh" name="list" position="75,121" scrollbarMode="showNever" selectionPixmap="Grey-SkinHD/menu/sel31.png" size="715,452" transparent="1" zPosition="1" />
     <widget backgroundColor="black" font="Regular; 22" halign="left" name="key_red" position="89,650" size="130,19" transparent="1" valign="top" zPosition="1" />
     <widget backgroundColor="black" font="Regular; 22" halign="left" name="key_green" position="265,650" size="130,19" transparent="1" valign="top" zPosition="1" />
     <widget backgroundColor="black" font="Regular; 22" halign="left" name="key_yellow" position="448,650" size="130,19" transparent="1" valign="top" zPosition="1" />
@@ -625,7 +625,7 @@ Modedified By RAED to Dreambox OE2.0 23-07-2015
 				}
 			</convert>
     </widget>
-    <widget backgroundColor="un384849" foregroundColor="green" name="Timeline" pointer="Grey-SkinHD/position_pointer_long.png:595,0" position="63,473" size="595,20" />
+    <widget backgroundColor="un384849" foregroundColor="orange" name="Timeline" pointer="Grey-SkinHD/position_pointer_long.png:595,0" position="63,473" size="595,20" />
     <ePixmap alphatest="on" pixmap="Grey-SkinHD/dvr_buttons_large.png" position="276,547" size="170,18" />
   </screen>
   <screen flags="wfNoBorder" name="GraphMultiEPG" position="0,0" size="1280,720" title="Electronic Program Guide">
